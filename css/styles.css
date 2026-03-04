@@ -713,7 +713,7 @@ header .logo {
 
 .visually-hidden:checked + .modal-agreement .agreement-icon-wrap {
   background-color: #404bbf;
-
+  fill: #f4f4fd;
   border: none;
 }
 
