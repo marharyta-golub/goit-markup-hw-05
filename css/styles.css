@@ -1,6 +1,7 @@
 :root {
   --cloud: #f4f4fd;
   --light-state: #8e8f99;
+  --iris: #4d5ae5;
 }
 
 body {
@@ -683,7 +684,7 @@ header .logo {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.form-group-adreement {
+.form-group-agreement {
   margin-bottom: 24px;
 }
 
@@ -710,14 +711,13 @@ header .logo {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden:checked + .checkbox-box {
+.visually-hidden:checked + .modal-agreement .checkbox-box {
   background-color: #404bbf;
-  border-radius: 2px;
-  fill: #f4f4fd;
-  border: 1px solid #404bbf;
+
+  border: none;
 }
 
-.agreement-checkbox:checked + .checkbox-box .modal-checkbox-icon {
+.agreement-checkbox:checked + .modal-agreement .modal-checkbox-icon {
   opacity: 1;
 }
 
@@ -765,4 +765,8 @@ header .logo {
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: #404bbf;
+}
+
+.privacy-link {
+  color: var(--iris);
 }
