@@ -707,11 +707,11 @@ header .logo {
 
 .modal-checkbox-icon {
   fill: #f4f4fd;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden:checked + .modal-agreement .checkbox-box {
+.visually-hidden:checked + .modal-agreement .agreement-icon-wrap {
   background-color: #404bbf;
 
   border: none;
@@ -767,4 +767,5 @@ header .logo {
 
 .privacy-link {
   color: var(--iris);
+  text-decoration: underline;
 }
