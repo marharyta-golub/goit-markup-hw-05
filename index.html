@@ -475,7 +475,7 @@
         <div class="footer-subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="footer-form">
-            <label>
+            <label class="footer-form-label">
               <input
                 class="footer-form-input"
                 type="email"
@@ -497,23 +497,23 @@
 
     <div class="modal-overlay is-open">
       <div class="modal">
+        <button class="close-btn" type="button">
+          <svg class="close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <p class="contact-form-title">
+          Leave your contacts and we will call you back
+        </p>
         <form class="contacts-form">
-          <button class="close-btn" type="button">
-            <svg width="8" height="8">
-              <use href="./images/icons.svg#close"></use>
-            </svg>
-          </button>
-          <p class="contact-form-title">
-            Leave your contacts and we will call you back
-          </p>
           <div class="form-group">
-            <label class="modal-label" for="name">Name</label>
+            <label class="modal-label" for="user-name">Name</label>
             <div class="modal-input-wrapper">
               <input
                 class="modal-input"
                 type="text"
-                name="name"
-                id="name"
+                name="user-name"
+                id="user-name"
                 placeholder=""
                 required
               />
@@ -558,7 +558,7 @@
           <textarea
             class="modal-textarea"
             name="comment"
-            id="texterea"
+            id="textarea"
             placeholder="Text input"
           ></textarea>
           <label class="modal-agreement">
@@ -576,8 +576,8 @@
             <span>I accept the terms and conditions of the</span>
             <a href="">Privacy Policy</a>
           </label>
+          <button class="modal-submit-btn" type="submit">Send</button>
         </form>
-        <button class="modal-submit-btn" type="submit">Send</button>
       </div>
     </div>
   </body>
