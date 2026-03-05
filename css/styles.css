@@ -516,10 +516,6 @@ header .logo {
   gap: 16px;
 }
 
-.svg-social {
-  margin-left: 16px;
-}
-
 .subscribe-btn:focus {
   background-color: #31d0aa;
 }
